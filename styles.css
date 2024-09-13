@@ -1,0 +1,71 @@
+body{
+    background-color: #333; 
+    background: rgb(0,10,13);
+    background: -moz-linear-gradient(180deg, rgba(0,10,13,0.968207351299895) 13%, rgba(0,10,13,0.6908964269301471) 65%, rgba(34,191,152,0.4191877434567577) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,10,13,0.968207351299895) 13%, rgba(0,10,13,0.6908964269301471) 65%, rgba(34,191,152,0.4191877434567577) 100%);
+    background: linear-gradient(180deg, rgba(0,10,13,0.968207351299895) 13%, rgba(0,10,13,0.6908964269301471) 65%, rgba(34,191,152,0.4191877434567577) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000a0d",endColorstr="#22bf98",GradientType=1); 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #7fffd48f;
+    padding: 10px;
+    width: 94%;
+}
+
+.mensaje{
+    width: 98%;
+    height: 20vh;
+    resize: none;
+    background-color: #222;
+    color: aquamarine;
+    font-size: x-large;
+    outline: none;
+    border: #222;
+    padding: 15px;
+    box-shadow:15px 15px 250px #7fffd48f ;
+}
+
+input{
+    margin: 15px 0 5px 0;
+    background-color: #222;
+    color: red;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    padding: 5px;
+    
+}
+
+p{
+    font-size: x-large;
+    font-family: sans-serif;
+    max-width: 100%;
+    word-wrap: break-word; 
+    overflow-wrap: break-word;
+    color: #333;
+    font-weight: 600;
+}
+
+button{
+    color: aquamarine;
+    height: 40px;
+    background-color: #333;
+    border: #222 solid;
+    cursor: pointer;
+}
+
+button:hover{
+    box-shadow: 0px 0px 15px rgb(0, 255, 170);
+}
+
+@media (max-width: 600px) {
+    body{
+        width: 88%;
+    }
+}
+
+
+@media (min-width: 1200px) {
+    body{
+        width: 98%;
+    }
+}

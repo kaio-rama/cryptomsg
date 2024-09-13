@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Mensajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1> Encriptador de Mensajes </h1>
+    <h3> Introduce en el area de texto superior el mensaje que quieras encriptar. Este te devolvera una llave = "key" 
+         numérica y cierta cantidad de números, los números son el mensaje. <br/>
+         Enviale a tu amigx los números y la key (única) para que pueda descifrarlo.<br/>
+         Para descifrar el mensaje tíenes que poner la key en su lugar y los números en el area de texto inferior. 
+         Luego al darle enter el mensaje aparecera en la pantalla. 
+    </h3>
+    <textarea placeholder="Escribe aqui tu mensaje para encriptar..." class="mensaje" id="textArea" ></textarea>
+    <input placeholder="Introduce la key ... "></input>
+    <textarea placeholder="Pega aqui tu mensaje para desencriptar..." class="mensaje" id="decoder" ></textarea>
+    <p id="cryptkey"> Numero de Key: </p>
+    <button id="copyText"> COPIAR MENSAJE </button>
+    <p id="cryptmsj"> Mensaje: </p>
+
+    
+    <script src="script.js"></script>
+</body>
+</html>
